@@ -103,8 +103,8 @@
     }
 
     #map1 {
-        height: 100vh;
-        width: 100vw;
+        height: auto;
+        width: auto;
     }
 
     .location-text > h2 {

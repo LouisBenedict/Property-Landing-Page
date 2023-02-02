@@ -10,17 +10,17 @@ import desktopcar from '../Assets/img2.png'
 const Location = () => {
 
     const conditionalRender = () => {
-        if (window.innerWidth > 768) {
+        if (window.innerWidth > 800) {
             return (
                 <div className='location-map-container'>
-                    <img id='map' src={jalilaerial} alt='map' />
+                    <img id='map1' src={jalilaerial} alt='map' />
                 </div>
             )
         }
     }
 
     const conditionalMapRender = () => {
-        if (window.innerWidth > 768) {
+        if (window.innerWidth > 800) {
             return (
                 <div className='location-map2-container'>
                     <img id='desktop-map' src={desktopmap} alt='map' />
