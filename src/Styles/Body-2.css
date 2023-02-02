@@ -17,6 +17,8 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0rem;
+    margin: 0 auto;
 }
 
 .body-2-box {
@@ -25,6 +27,7 @@
     text-align: center;
     padding: 0.6rem 0.2rem;
     margin: 1rem;
+    margin: 0 auto;
 
     height: 10rem;
     width: 12rem;
@@ -77,6 +80,10 @@
 /* #location-icon {
     
 } */
+
+@media screen and (min-width: 0px) and (max-width: 913px) {
+    
+}
 
 @media screen and (min-width: 914px) and (max-width: 1439px) {
     .body-2-container {
