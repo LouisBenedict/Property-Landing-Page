@@ -1,0 +1,69 @@
+#body-3-box1 {
+    background-color: white;
+
+}
+
+#body-3-box1 > h2 {
+    color: #B17860;
+}
+
+#body-3-box1 {
+    background-color: white;
+    padding: 1rem;
+}
+
+#body-3-box2 {
+    background-color: black;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    margin-top: -15rem;
+}
+
+.carousel {
+    margin-top: -1rem;
+}
+
+.carousel-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-container {
+    background-color: white;
+    margin: 0 auto;
+}
+
+#body-3-box2 > p {
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+    .body-3-container {
+        padding-top: 5rem;
+    }
+
+    .body-3-box-containers > h2 {
+        font-size: 2.5rem;
+        position: relative;
+        left : 27rem;
+        top: 2rem;
+    }
+
+    .carousel {
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .carousel-container > img {
+        width: 100%;
+    }
+
+    #body-3-box2 > p {
+        font-size: 2.3rem;
+    }
+}

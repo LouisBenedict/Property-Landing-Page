@@ -1,0 +1,135 @@
+.about-dev-container {
+    background-color: #F9EAE1;
+    padding: 2rem 0;
+}
+
+.about-dev-container > h2 {
+    text-align: center;
+    padding: 2rem 0;
+    color: #BA6934;
+    text-transform: uppercase;
+}
+
+.shayher-logo > h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #030303;
+    font-family: 'Nunito-regular', 'Arial-bold';
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.shayher-logo > p {
+    text-align: center;
+    font-size: 1rem;
+    color: #030303;
+    font-family: 'Arial-bold';
+    padding: 0 1rem;
+}
+
+
+/* Header */
+.upcoming-projects-container > h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #BA6934;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.completed-projects-container > h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #BA6934;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+/* */
+
+.upcoming-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+}
+
+.upcoming-project > img {
+    border-radius: 10px;
+    width: 100%;
+    height: 70%;
+
+    margin-bottom: -1.2rem;
+}
+
+.upcoming-project > h3 {
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+}
+
+.upcoming-project > h4 {
+    margin-top: -0.2rem;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.completed-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+}
+
+.completed-project > img {
+    border-radius: 10px;
+    width: 100%;
+    height: 70%;
+    margin-bottom: -1.2rem;
+}
+
+.completed-project > h3 {
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+}
+
+.completed-project > h4 {
+    margin-top: -0.2rem;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .about-dev-container {
+        padding-bottom: 6rem;
+    }
+
+    .upcoming-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 1rem;
+    }
+
+    .upcoming-project > img {
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .completed-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 1rem;
+    }
+
+    .completed-project > img {
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+    }
+}

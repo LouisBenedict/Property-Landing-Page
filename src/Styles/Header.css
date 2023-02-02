@@ -1,0 +1,82 @@
+.header-image > img {
+    height: 88vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-text {
+    position: absolute;
+    width: 80%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    animation: fadeIn 2s ease-in-out 0s forwards;
+    z-index: 2;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    max-width: fit-content;
+    opacity: 1;
+    font-family: 'Mollie-Glaston, Arial-bold';
+    text-transform: uppercase;
+    color: white;
+}
+
+.header-text > h1 > span {
+    color: #AF7C4F;
+}
+
+.header-text h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.arial-b-tag {
+    font-family: 'Arial-bold';
+    color: #AF7C4F;
+}
+
+.arial-b-tag > span {
+    font-size: 2rem;
+    background-color: white;
+}
+
+.header-text h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.chronical-r-tag {
+    font-family: 'Chronical-roman';
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header-text h1 {
+        font-size: 5rem;
+        margin-top: 30rem;
+    }
+
+    .header-text h2 {
+        font-size: 2rem;
+    }
+
+    .header-text h3 {
+        font-size: 2rem;
+    }
+}
+

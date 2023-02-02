@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Arial-bold';
+    src: url('./Assets/fonts/Arial_Bold.ttf');
+
+    font-family: 'Mollie-Glaston';
+    src: url('./Assets/fonts/FontsFree-Mollie-Glaston.ttf');
+
+    font-family: 'Mollies-regular';
+    src: url('./Assets/fonts/MOLLIES_Regular.ttf');
+
+    font-family: 'Nunito-regular';
+    src: url('./Assets/fonts/Nunito-Regular.ttf');
+
+    font-family: 'Mollies-bold';
+    src: url('./Assets/fonts/MOLLIES_Bold.ttf');
+
+    font-family: 'Mollies-semibold';
+    src: url('./Assets/fonts/MOLLIES_Semibold.ttf');
+
+    font-family: 'Myanmar-mn';
+    src: url('./Assets/fonts/Myanmar_MN.ttc');
+
+    font-family: 'Chronical-roman';
+    src: url('./Assets/fonts/Chronicle_Display_Roman.otf');
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}

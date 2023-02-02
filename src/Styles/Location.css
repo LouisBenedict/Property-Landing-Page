@@ -1,0 +1,241 @@
+.location-container {
+    /* newly added */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mobile-location-video {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.location-text > h2 {
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    margin-top: -4rem;
+    margin-left: 0.8rem;
+    font-size: 2.2rem;
+    color: white;
+    z-index: 2;
+}
+
+.location-text > p {
+    font-family: 'Nunito, sans-serif';
+    font-weight: 500;
+    border-left: 2px solid #AF7C4F;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+#desktop-map {
+    height: 70%;
+    width: 70%;
+}
+
+#mobile-map {
+    height: 80%;
+    width: 80%;
+}
+
+#mobile-map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    padding-bottom: 2rem;
+}
+
+.location-map-container {
+    background-color: rgb(252, 227, 217);
+    padding-bottom: 2rem;
+}
+
+.car-container {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.car-container > #car-img-container > img {
+    height: 100%;
+    width: 80%;
+    margin-top: -1rem;
+    border-radius: 7px;
+    z-index: 1;
+}
+
+.car-container > #car-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.car-container > h2 {
+    color: white;
+    z-index: 2;
+    margin-top: -1.6rem;
+    margin-left: 3rem;
+}
+
+.car-container > h2 > span {
+    color: #B17860;
+}
+
+@media screen and (min-width: 413px) and (max-width: 1100px) {
+
+    video {
+       display: none;
+    }
+
+    #map1 {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .location-text > h2 {
+        margin-top: -4rem;
+        margin-left: 0.8rem;
+        font-size: 2.2rem;
+        color: white;
+        z-index: 2;
+    }
+
+    .location-text > p {
+        font-family: 'Nunito, sans-serif';
+        font-weight: 500;
+        border-left: 2px solid #AF7C4F;
+        padding: 1rem;
+        padding-left: 2rem;
+    }
+
+    #mobile-map {
+        height: 80%;
+        width: 80%;
+    }
+
+    #mobile-map-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        padding-bottom: 2rem;
+    }
+
+    .location-map-container {
+        background-color: rgb(252, 227, 217);
+        padding-bottom: 2rem;
+    }
+
+    .car-container {
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .car-container > #car-img-container > img {
+        height: 100%;
+        width: 80%;
+        margin-top: -1rem;
+        border-radius: 7px;
+        z-index: 1;
+    }
+    
+    .car-container > #car-img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .car-container > h2 {
+        color: white;
+        z-index: 2;
+        margin-top: -1.6rem;
+        margin-left: 3rem;
+    }
+    
+    .car-container > h2 > span {
+        color: #B17860;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+    video {
+        display: none;
+    }
+
+    .location-text > h2 {
+        margin-top: -10.5rem;
+        margin-left: 2rem;
+        font-size: 4rem;
+    }
+
+    .location-text > p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 60%;
+        font-size: 1.5rem;
+        margin: 0 auto;
+        padding-top: 3.5rem;
+    }
+
+    .location-map-container {
+        padding-bottom: 6rem;
+    }
+
+    .location-map2-container {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .location-map2-container > img {
+        /* height: 80vh; */
+        width: 100vw;
+        position: relative;
+    }
+
+    .car-container > #car-img-container > img {
+        width: 80%;
+        margin-top: -4rem;
+        z-index: 1;
+    }
+
+    .car-container > h2 {
+        margin-top: -4.5rem;
+        margin-left: 13rem;
+        font-size: 4.5rem;
+    }
+
+}
+
+
+
+
+

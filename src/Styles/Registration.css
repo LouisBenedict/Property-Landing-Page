@@ -1,0 +1,151 @@
+.registration-container {
+    background-image: url('../Assets/A2.png');
+    background-size: 8rem 10rem;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.registration-container > h2 {
+    text-align: center;
+    padding: 2rem 0;
+    color: #BA6934;
+    text-transform: uppercase;
+}
+
+.registration-container > p {
+    text-align: center;
+    color: gray;
+    font-size: 0.8rem;
+    margin-top: -2rem;
+    margin-bottom: 4.5rem;
+}
+
+.registration-form {
+    margin-bottom: 2rem;
+}
+
+.registration-form > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.registration-form > form > input {
+    border: none;
+    padding: 1rem 0rem;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    width: 20rem;
+}
+
+#submit {
+    background-color: #B17860;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.registration-form > form > select {
+    border: none;
+    padding: 1rem 0rem;
+    width: 20rem;
+    background-color: transparent;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+label {
+    display: none;
+}
+
+/* I agree Privacy Policy style */
+
+.i-agree > input {
+    display: block;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.i-agree {
+    margin: 2rem 3rem;
+}
+
+.i-agree > span {
+    font-size: 0.7rem;
+    color: gray;
+    word-wrap: break-word;
+}
+
+#submit {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1100px) {
+    .registration-container {
+        background-image: url('../Assets/A2.png');
+        background-size: 25rem 30rem;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .registration-container > h2 {
+        text-align: center;
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+
+    .registration-container > p {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 1.2rem;
+        margin-top: -3rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .registration-form > form > input {
+        border: none;
+        padding: 1rem 0rem;
+        border-bottom: 1px solid gray;
+        background-color: transparent;
+        width: 30rem;
+    }
+
+    .registration-container > select {
+        border: none;
+        padding: 1rem 0rem;
+        width: 30rem;
+        background-color: transparent;
+        color: gray;
+        border-bottom: 1px solid gray;
+    }
+
+    .i-agree {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #checkbox {
+        position: relative;
+        left: 29%;
+        bottom: 1.3rem;
+        cursor: pointer;
+    }
+
+    .i-agree > span {
+        color: black;
+        font-size: 1rem;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    #submit {
+        width: 18rem;
+    }
+}
